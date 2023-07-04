@@ -11,7 +11,7 @@ background-color: #FFFFFF;
 
 .header-Logo link {
 font-family: "Raleway", sans-serif;
-font-weight: 800;
+font-weight: 900;
 font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
@@ -50,7 +50,7 @@ color: #434455;
 .contacts-link:focus {
     color: #404bbf;
 }
-
+/**______TITLE____**/
 .head-title {
     background-color: #2e2f42;
 }
@@ -72,7 +72,7 @@ color: #434455;
     line-height: 1.5;
     letter-spacing: 0.04em;
 background-color: #4D5AE5;
-cursor: pointer
+cursor: pointer;
 }
 .button:hover {
     background-color: #404bbf;
@@ -81,5 +81,20 @@ cursor: pointer
     background-color: #404bbf;
 }
 
+.advantages-title {
+    color: #2e2f42;
+    font-family: "Roboto",sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 
+}
+
+.advantages-subtitle {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 
