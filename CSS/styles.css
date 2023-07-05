@@ -34,7 +34,7 @@ color: #404bbf;
 .header-list link:focus {
 color: #404bbf;
 }
-.header-address list {
+.contacts-link link {
 font-style: normal;
 font-size: 16px;
 line-height: 1.5;
@@ -42,12 +42,10 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
-
-
-.contacts-link:hover {
+.contacts-item:hover {
     color: #404bbf;
 }
-.contacts-link:focus {
+.contacts-item:focus {
     color: #404bbf;
 }
 /**______TITLE____**/
