@@ -56,6 +56,7 @@ color: #434455;
 
 .advantages-section-list {
     background-color: #2e2f42;
+    flex-shrink: 0;
 }
 .head-text {
     color: #FFFFFF;
@@ -70,6 +71,7 @@ color: #434455;
 .head-btn {
     color: #FFFFFF;
     font-family: "Roboto",sans-serif;
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -119,7 +121,7 @@ cursor: pointer;
 
 /**___Section4___**/
 
-.advantages-section-list {
+.advantages-list {
     background-color: #f4f4fd;
 }
 .advant-title {
