@@ -34,7 +34,7 @@ color: #404bbf;
 .header-list link:focus {
 color: #404bbf;
 }
-.header-address link {
+.header-address list {
 font-style: normal;
 font-size: 16px;
 line-height: 1.5;
@@ -55,6 +55,10 @@ color: #434455;
     background-color: #2e2f42;
 }
 /**___Section1___**/
+
+.advantages-section-list {
+    background-color: #2e2f42;
+}
 .head-text {
     color: #FFFFFF;
     font-size: 56px;
@@ -75,10 +79,9 @@ color: #434455;
 background-color: #4D5AE5;
 cursor: pointer;
 }
-.button:hover {
+.head-btn:hover {
     background-color: #404bbf;
-}
-.button:focus {
+}.head-btn:focus {
     background-color: #404bbf;
 }
 /**____Section2_____**/
@@ -94,11 +97,17 @@ cursor: pointer;
 
 .advantages-subtitle {
     color: #434455;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.advantages-p {
+    color: #434455;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-
 /**___Section3___**/
 
 .advant-title {
@@ -165,6 +174,73 @@ cursor: pointer;
     color: #f4f4fd;
 }
 .footer-content {
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
+}
+
+/**___PARTFOLIO___**/
+
+.list {
+    list-style-type: none;
+    text-decoration: none;
+}
+.partfolio-btn {
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: #3f3f94;
+    cursor: pointer;
+}
+
+.partfolio-btn:hover {
+    color: #FFFFFF;
+    background-color: #404bbf;
+}
+
+.partfolio-btn:focus {
+    color: #FFFFFF;
+    background-color: #404bbf;
+}
+
+.partfolio-title {
+    color: #434455;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.partfolio-subtitle {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/**___PARTFOLIO FOOTER---**/
+
+.partfolio-footer {
+    background-color: #2e2f42;
+}
+
+.partfolio-Logo link {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    text-decoration: none;
+}
+
+.partfolio-logo-accent {
+    color: #f4f4fd;
+}
+
+.partfolio-footer-content {
     color: #F4F4FD;
     letter-spacing: 0.02em;
 }
