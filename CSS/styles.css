@@ -14,9 +14,6 @@ background-color: #ffffff;
 
 /**______index.htmi______**/
 .header {
-    width: 1440px;
-    height: 72px;
-    flex-shrink: 0;
     border-bottom: 1px solid var(--cornflower, #E7E9FC);
     background: var(--white, #FFF);
 }
@@ -145,8 +142,7 @@ background-color: #ffffff;
 .advant-section-list {
     background: #FFF;
 }
-.advantages-item {display: flex;
-width: 264px;
+.advantages-item {
 flex-direction: column;
 }
 
@@ -179,8 +175,6 @@ flex-direction: column;
 
 .section-list {
     background: #FFF;
-    width: 1440px;
-    height: 2592px;
 }
 
 .section-title {
@@ -199,9 +193,6 @@ flex-direction: column;
 
 
 .section-four-list {
-    width: 1440px;
-    height: 732px;
-    flex-shrink: 0;
     background: var(--cloud, #F4F4FD);
 }
 
@@ -277,10 +268,6 @@ flex-direction: column;
 }
 
 .footer-content {
-    display: flex;
-    width: 264px;
-    flex-direction: column;
-    flex-shrink: 0;
     color: var(--cloud, #F4F4FD);
     font-size: 16px;
     font-family: "Roboto";
