@@ -22,10 +22,9 @@ background-color: #ffffff;
     background: var(--white, #FFF);
 }
 .header-logo link {
-    justify-content: center;
-    color: #4D5AE5;
+    color: var(--iris #4D5AE5);
     font-size: 18px;
-    font-family: "Raleway", sans-serif;
+    font-family: Raleway;
     font-style: normal;
     font-weight: 800;
     line-height: 1.17;
