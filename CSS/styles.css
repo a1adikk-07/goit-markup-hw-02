@@ -1,9 +1,10 @@
 :root {
-font-family: "Roboto","Raleway", sans-serif;
+font-family: "Roboto", "Raleway", sans-serif;
 --white: #ffffff;
 --iris:#4D5AE5;
 --navyblue: #2E3F42;
 --lilac: #404bbf;
+--cornflower: #E7E9FC;
 }
 
 .body {
@@ -12,7 +13,7 @@ color: #434455;
 background-color: #ffffff;
 }
 
-/**______index.htmi______**/
+/**______index.html______**/
 
 /**_____HEADER____**/
 
@@ -24,7 +25,7 @@ background-color: #ffffff;
 .header-logo link {
     color: var(--iris #4D5AE5);
     font-size: 18px;
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: 800;
     line-height: 21px;
@@ -33,10 +34,9 @@ background-color: #ffffff;
 }
 
 .header-logo-accent {
-    justify-content: center;
     color: #2E2F42;
     font-size: 18px;
-    font-family: "Raleway",sans-serif;
+    font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: 800;
     line-height: 21px;
@@ -66,7 +66,6 @@ background-color: #ffffff;
     font-style: normal;
 }
 
-
 .contacts-link link {
     color: #434455;
     font-size: 16px;
@@ -95,7 +94,7 @@ background-color: #ffffff;
 }
 
 .head-text {
-    color: var(--white, #FFF);
+    color: var(--white, #ffffff);
     text-align: center;
     font-size: 56px;
     font-family: "Roboto";
