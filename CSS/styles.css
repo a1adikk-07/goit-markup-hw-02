@@ -13,6 +13,7 @@ color: #434455;
 background-color: #ffffff;
 }
 
+
 /**______index.html______**/
 
 /**_____HEADER____**/
@@ -43,7 +44,6 @@ background-color: #ffffff;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
-
 
 .menu {
     color: #2E2F42;
