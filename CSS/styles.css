@@ -27,10 +27,9 @@ background-color: #ffffff;
     font-family: Raleway;
     font-style: normal;
     font-weight: 800;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
+    line-height: 21px;
+    letter-spacing: 0.54px;
     text-transform: uppercase;
-    text-decoration: none;
 }
 
 .header-logo-accent {
