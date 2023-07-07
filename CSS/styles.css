@@ -6,10 +6,10 @@ font-family: "Roboto","Raleway", sans-serif;
 --lilac: #404bbf;
 }
 
-body {
+.body {
 font-family:"Roboto", sans-serif;
-color: #ffffff;
 background-color: #ffffff;
+color: #434455;
 }
 
 /**______index.htmi______**/
