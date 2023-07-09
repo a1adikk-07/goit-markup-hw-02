@@ -1,17 +1,24 @@
 :root {
-font-family: "Roboto", "Raleway", sans-serif;
-font-size: 400, 700, 800, 900;
+font-family: "Roboto", sans-serif;
+--primary-text-color: #434455;
 --white: #ffffff;
---iris:#4D5AE5;
---navyblue: #2E3F42;
+--logo-color:#4D5AE5;
+--bg-color: #2E3F42;
 --lilac: #404bbf;
---cornflower: #E7E9FC;
 }
 
-.body {
+body {
 font-family:"Roboto", sans-serif;
-color: #434455;
+color: var(--primary-text-color);
 background-color: #ffffff;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
 }
 
 
@@ -23,8 +30,8 @@ background-color: #ffffff;
 .header {
     background: var(--white, #FFF);
 }
-.header-logo link {
-    color: var(--iris #4D5AE5);
+.header-logo {
+    color: var(--logo-color);
     font-size: 18px;
     font-family: "Raleway", sans-serif;
     font-style: normal;
@@ -36,7 +43,7 @@ background-color: #ffffff;
 }
 
 .header-logo-accent {
-    color: #2E2F42;
+    color: var(--bg-color);
     font-size: 18px;
     font-family: "Raleway", sans-serif;
     font-style: normal;
@@ -234,10 +241,10 @@ flex-direction: column;
     background: #2E2F42;
 }
 
-.footer-logo link {
-    color: #4D5AE5;
+.footer-logo {
+    color: var(--logo-color);
     font-size: 18px;
-    font-family: "Raleway",sans-serif;
+    font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: 800;
     line-height: 1.17;
@@ -271,20 +278,6 @@ flex-direction: column;
 /**_____PORTFOLIO.HTML____**/
 
 
-:root {
-    font-family: "Roboto", sans-serif;
-    --white: #ffffff;
-    --iris: #4D5AE5;
-    --navyblue: #2E3F42;
-    --lilac: #404bbf;
-}
-
-.partfolio-body {
-    font-family: "Roboto", sans-serif;
-    color: #434455;
-    background-color: #fff;
-}
-
 /**_____HEADER_____**/
 
 .partfolio-header {
@@ -292,9 +285,8 @@ flex-direction: column;
     background: var(--white, #FFF);
 }
 
-.partfolio-logo link {
-    justify-content: center;
-    color: #4D5AE5;
+.partfolio-logo {
+    color: var(--logo-color);
     font-size: 18px;
     font-family: "Raleway", sans-serif;
     font-style: normal;
@@ -425,7 +417,7 @@ flex-direction: column;
     background-color: #2E2F42;
 }
 
-.partfolio-footer-logo link {
+.partfolio-footer-logo {
     color: #4D5AE5;
     font-size: 18px;
     font-family: "Raleway", sans-serif;
