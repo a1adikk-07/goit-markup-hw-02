@@ -50,7 +50,7 @@ background-color: #ffffff;
 
 .header-logo-link {
     color: var(--logo-color-second);
-    font-family: Raleway, sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
@@ -61,7 +61,7 @@ background-color: #ffffff;
 
 .header-menu-link-link {
     color: #2E2F42;
-    font-family: Roboto;
+    font-family: "Roboto" sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
