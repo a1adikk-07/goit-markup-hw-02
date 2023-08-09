@@ -164,19 +164,13 @@ background-color: #ffffff;
 /**_____Section3____**/
 
 
-.section-list {
-    background-color:var(--white);
-}
-
 .section-title {
-    color: var(--logo-color-second);
     font-size: 36px;
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: 00;
     line-height: 1.11;
+    text-align: center;
     letter-spacing: 0.02em;
-    margin: 0 auto;
+    text-transform: capitalize;
+    color: var(--logo-color-second)
 }
 
 /**____Section4____**/
