@@ -164,14 +164,16 @@ background-color: #ffffff;
 /**_____Section3____**/
 
 
-.section-title {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: var(--logo-color-second)
-}
+ .wawd-title {
+     color: #2E2F42;
+     font-family: Roboto;
+     font-size: 36px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 1.11;
+     letter-spacing: 0.02em;
+     text-transform: capitalize;
+ }
 
 /**____Section4____**/
 .section-four-list {
